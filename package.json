@@ -1,0 +1,14 @@
+{
+  "name": "cw-restful-api",
+  "version": "1.0.0",
+  "description": "demo project to learn Rest APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Navin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

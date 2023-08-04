@@ -1,0 +1,83 @@
+####Creating Restful APIs using Node.js and Express
+
+1.imp while learning any thing 
+    1.What is the topic
+    2.Why is topic(what problem solve etc)
+    3.How 
+
+2. WebSite              |     WebApp 
+  static content          interative     
+   only read
+
+#KISS(keep it Simple Silly)
+
+3.WebApplication
+  1.FrontEnd
+  2.BackEnd
+  3.DataBase
+
+*why Nodejs use in BackEnd
+  because by learning js you can use in both F and B 
+
+
+Backend(APIs)
+  APIs --> 2 system talk to each other with APIs
+
+history of APIs
+  1.SOAP(Simple object  protocol) uses XML
+  2.SOAP is very slow (because of XML)
+        whether is language or human if you can't change yourself yu will replace 
+  3.SOAP is replace with REST
+
+REST (Representational state Transfer)
+    1.practical and flexible(may json,xml)
+    2.I am Fast(because it uses JSON)
+
+meaning of rest
+data ka state ka jo represent wo Transfer ho ta rahe ta hai from one application to another i.e REST
+  (eg DataBase give data in tabular format Backend pass the data in json format and FrontEnd show it in img format)
+
+REST 
+   everything revolve around (Resources)data(crud)
+   [we perform crud on  data]
+
+<JO bhi application computer mai run hota hai uska ek port number ho ta hai>
+How will do (by URI)
+    1.which computer(ip address)
+    2.which application(port number)
+    3.which file
+                                {ipAddress:PortName/appName/Resouorce}
+eg                              {111.24.56.69:7777:/jioradar/location/1234}
+
+REST is build on http(already support CRUD)C -> POST R GET U PUT D DELETE
+
+Http verb + URI = Restful API endpoint
+[post 121.0.4.9:8080/bms/movies/dhoom]
+[GET 121.0.4.9:8080/bms/movies/dhoom]
+[put 121.0.4.9:8080/bms/movies/dhoom]
+[delete 121.0.4.9:8080/bms/movies/dhoom]
+
+we human need environment(oxygen,water,soil,etc)
+~programmig language also need environment(runtime environment)
+js runtime environment is known as NodeJs
+
+synchronous processing  -> one time one job
+asynchronous processing -> one time many job
+
+Framework -> Minimum quality, Boiler plate, structure
+     express is framwork of nodejs
+              we can easily make server with help of express
+              support middleware(noting but function consists
+                                (object req,obj res,obj next))
+
+Library -> set of reusable code
+
+package.json ->consist of all imp info of project
+
+
+
+Backend
+  1.Routes      (check the req is valid or not)
+  2.Controller (main Logic)
+  3.Model      (access the database)
+Build M->C->R
